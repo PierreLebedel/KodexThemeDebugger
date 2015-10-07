@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Sat Sep 26 2015 17:37:14 GMT+0200 (Paris, Madrid (heure "
 "d’été))\n"
-"PO-Revision-Date: Sat Sep 26 2015 17:38:39 GMT+0200 (Paris, Madrid (heure "
+"PO-Revision-Date: Wed Oct 07 2015 20:17:52 GMT+0200 (Paris, Madrid (heure "
 "d’été))\n"
 "Last-Translator: Pierros <pierrelebedel@gmail.com>\n"
 "Language-Team: \n"
@@ -43,3 +43,101 @@ msgstr ""
 #. Author URI of the plugin
 msgid "http://www.pierros.fr"
 msgstr ""
+
+#: ../admin/class-kodex-theme-debugger-admin.php:30 ../admin/partials/part-
+#: rewriterules.php:19
+msgid "Rewrite rules"
+msgstr ""
+
+#: ../admin/class-kodex-theme-debugger-admin.php:32
+msgid "Post types & taxonomies"
+msgstr ""
+
+#: ../admin/class-kodex-theme-debugger-admin.php:33
+msgid "Cron"
+msgstr ""
+
+#: ../admin/partials/part-cron.php:45
+msgid "No scheduled task"
+msgstr "Aucune tâche planifiée"
+
+#: ../admin/partials/part-posttypes.php:18 ../admin/partials/part-posttypes.php:56
+msgid "Public"
+msgstr ""
+
+#: ../admin/partials/part-posttypes.php:21 ../admin/partials/part-posttypes.php:48
+msgid "Taxonomies"
+msgstr ""
+
+#: ../admin/class-kodex-theme-debugger-admin.php:31 ../admin/partials/part-
+#: shortcodes.php:11
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: ../admin/class-kodex-theme-debugger-admin.php:90
+msgid "Page not found"
+msgstr "Page introuvable"
+
+#: ../admin/partials/part-cron.php:4
+msgid "The DISABLE_WP_CRON constant is enabled"
+msgstr "La constante DISABLE_WP_CRON est activée"
+
+#: ../admin/partials/part-cron.php:20
+msgid "Task name"
+msgstr "Nom de la tâche"
+
+#: ../admin/partials/part-cron.php:21
+msgid "Recurrence"
+msgstr "Récurrence"
+
+#: ../admin/partials/part-cron.php:22
+msgid "Next execution"
+msgstr "Prochaine éxécution"
+
+#: ../admin/partials/part-posttypes.php:10 ../admin/partials/part-posttypes.php:59
+msgid "Post types"
+msgstr "Types de contenu"
+
+#: ../admin/partials/part-posttypes.php:16 ../admin/partials/part-posttypes.php:54
+msgid "Label"
+msgstr "Libellé"
+
+#: ../admin/partials/part-posttypes.php:17 ../admin/partials/part-posttypes.php:55
+msgid "Name"
+msgstr "Nom"
+
+#: ../admin/partials/part-posttypes.php:19 ../admin/partials/part-posttypes.php:57
+msgid "Hierarchical"
+msgstr "Hiérarchique"
+
+#: ../admin/partials/part-posttypes.php:20
+msgid "Exclude from search"
+msgstr "Exclure de la recherche"
+
+#: ../admin/partials/part-posttypes.php:42 ../admin/partials/part-posttypes.php:80
+msgid "No post types"
+msgstr "Aucun type de contenu"
+
+#: ../admin/partials/part-posttypes.php:58
+msgid "Show admin column"
+msgstr "Afficher la colonne"
+
+#: ../admin/partials/part-rewriterules.php:7
+msgid "Rewrite rules flushed"
+msgstr "Les règles de réécritures sont rafraichies"
+
+#: ../admin/partials/part-rewriterules.php:12
+msgid "Flush rewrite rules"
+msgstr "Rafraichir les règles de réécriture"
+
+#: ../admin/partials/part-rewriterules.php:32
+msgid "No rewrite rules"
+msgstr "Pas de règle de réécriture"
+
+#: ../admin/partials/part-settings.php:7
+msgid "No settings yet"
+msgstr "Pas de réglage"
+
+#: ../admin/partials/part-shortcodes.php:24
+msgid "No shortcode"
+msgstr "Aucun shortcode"

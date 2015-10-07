@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Sat Sep 26 2015 17:37:14 GMT+0200 (Paris, Madrid (heure "
 "d’été))\n"
-"POT-Revision-Date: Sat Sep 26 2015 17:37:19 GMT+0200 (Paris, Madrid (heure "
+"POT-Revision-Date: Wed Oct 07 2015 20:17:30 GMT+0200 (Paris, Madrid (heure "
 "d’été))\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: \n"
@@ -44,4 +44,102 @@ msgstr ""
 
 #. Author URI of the plugin
 msgid "http://www.pierros.fr"
+msgstr ""
+
+#: ../admin/class-kodex-theme-debugger-admin.php:30 ../admin/partials/part-
+#: rewriterules.php:19
+msgid "Rewrite rules"
+msgstr ""
+
+#: ../admin/class-kodex-theme-debugger-admin.php:31 ../admin/partials/part-
+#: shortcodes.php:11
+msgid "Shortcodes"
+msgstr ""
+
+#: ../admin/class-kodex-theme-debugger-admin.php:32
+msgid "Post types & taxonomies"
+msgstr ""
+
+#: ../admin/class-kodex-theme-debugger-admin.php:33
+msgid "Cron"
+msgstr ""
+
+#: ../admin/class-kodex-theme-debugger-admin.php:90
+msgid "Page not found"
+msgstr ""
+
+#: ../admin/partials/part-cron.php:4
+msgid "The DISABLE_WP_CRON constant is enabled"
+msgstr ""
+
+#: ../admin/partials/part-cron.php:20
+msgid "Task name"
+msgstr ""
+
+#: ../admin/partials/part-cron.php:21
+msgid "Recurrence"
+msgstr ""
+
+#: ../admin/partials/part-cron.php:22
+msgid "Next execution"
+msgstr ""
+
+#: ../admin/partials/part-cron.php:45
+msgid "No scheduled task"
+msgstr ""
+
+#: ../admin/partials/part-posttypes.php:10 ../admin/partials/part-posttypes.php:59
+msgid "Post types"
+msgstr ""
+
+#: ../admin/partials/part-posttypes.php:16 ../admin/partials/part-posttypes.php:54
+msgid "Label"
+msgstr ""
+
+#: ../admin/partials/part-posttypes.php:17 ../admin/partials/part-posttypes.php:55
+msgid "Name"
+msgstr ""
+
+#: ../admin/partials/part-posttypes.php:18 ../admin/partials/part-posttypes.php:56
+msgid "Public"
+msgstr ""
+
+#: ../admin/partials/part-posttypes.php:19 ../admin/partials/part-posttypes.php:57
+msgid "Hierarchical"
+msgstr ""
+
+#: ../admin/partials/part-posttypes.php:20
+msgid "Exclude from search"
+msgstr ""
+
+#: ../admin/partials/part-posttypes.php:21 ../admin/partials/part-posttypes.php:48
+msgid "Taxonomies"
+msgstr ""
+
+#: ../admin/partials/part-posttypes.php:42 ../admin/partials/part-posttypes.php:80
+msgid "No post types"
+msgstr ""
+
+#: ../admin/partials/part-posttypes.php:58
+msgid "Show admin column"
+msgstr ""
+
+#: ../admin/partials/part-rewriterules.php:7
+msgid "Rewrite rules flushed"
+msgstr ""
+
+#: ../admin/partials/part-rewriterules.php:12
+msgid "Flush rewrite rules"
+msgstr ""
+
+#: ../admin/partials/part-rewriterules.php:32
+msgid "No rewrite rules"
+msgstr ""
+
+#: ../admin/partials/part-settings.php:7
+msgid "No settings yet"
+msgstr ""
+
+#: ../admin/partials/part-shortcodes.php:24
+msgid "No shortcode"
 msgstr ""

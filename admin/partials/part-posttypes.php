@@ -24,7 +24,7 @@ if( !empty($post_types) ){
 		<tbody>
 			<?php $i=0; foreach($post_types as $k=>$v): $i++; ?>
 			<tr class="<?php echo($i%2==0)?'alternate':''; ?>">
-				<th scope="row" valign="top"><?php echo $v->label; ?></th>
+				<th scope="row" valign="top"><b><?php echo $v->label; ?></b></th>
 				<td><?php echo $v->name; ?></td>
 				<td align="center"><?php echo $this->get_bool_icon($v->public); ?></td>
 				<td align="center"><?php echo $this->get_bool_icon($v->hierarchical); ?></td>
@@ -62,7 +62,7 @@ if( !empty($taxonomies) ){
 		<tbody>
 			<?php $i=0; foreach($taxonomies as $k=>$v): $i++; ?>
 			<tr class="<?php echo($i%2==0)?'alternate':''; ?>">
-				<th scope="row" valign="top"><?php echo $v->label; ?></th>
+				<th scope="row" valign="top"><b><?php echo $v->label; ?></b></th>
 				<td><?php echo $v->name; ?></td>
 				<td align="center"><?php echo $this->get_bool_icon($v->public); ?></td>
 				<td align="center"><?php echo $this->get_bool_icon($v->hierarchical); ?></td>

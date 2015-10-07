@@ -14,7 +14,7 @@ if( !empty($shortcode_tags) ){
 		<tbody>
 			<?php $i=0; foreach($shortcode_tags as $k=>$v): $i++; ?>
 			<tr class="<?php echo($i%2==0)?'alternate':''; ?>">
-				<th scope="row"><?php echo $k; ?></th>
+				<th scope="row"><b><?php echo $k; ?></b></th>
 				<td><code>[<?php echo $k; ?>]</code></td>
 			</tr>
 			<?php endforeach; ?>

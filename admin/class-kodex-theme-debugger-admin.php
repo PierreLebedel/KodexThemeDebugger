@@ -30,13 +30,14 @@ class Kodex_Theme_Debugger_Admin {
 			'rewriterules' => __("Rewrite rules", 'kodex'),
 			'shortcodes'   => __("Shortcodes", 'kodex'),
 			'posttypes'    => __("Post types & taxonomies", 'kodex'),
-			'settings'     => __("Settings", 'kodex'),
+			'cron'         => __("Cron", 'kodex'),
+			'settings'     => '<span class="dashicons dashicons-admin-generic"></span>',
 		);
 		$this->tab = (isset($_GET['tab']) && array_key_exists($_GET['tab'], $this->tabs)) ? $_GET['tab'] : key($this->tabs);
 	}
 
-	public function set_message($msg){
-		$this->message = '<div id="setting-error-settings_updated" class="updated settings-error notice is-dismissible"><p><strong>'.$msg.'</strong></p><button type="button" class="notice-dismiss"><span class="screen-reader-text">Ne pas tenir compte de ce message.</span></button></div>';
+	public function set_message($msg, $class="updated", $isdismissible=true){
+		$this->message = '<div id="setting-error-settings_updated" class="'.$class.' '.(($isdismissible)?'is-dismissible':'').'"><p><strong>'.$msg.'</strong></p><button type="button" class="notice-dismiss"><span class="screen-reader-text">Ne pas tenir compte de ce message.</span></button></div>';
 	}
 
 	public function admin_menu(){
