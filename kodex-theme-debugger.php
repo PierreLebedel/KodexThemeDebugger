@@ -3,7 +3,7 @@
 /**
  * Plugin Name:       Kodex Theme debugger
  * Plugin URI:        http://kodex.pierros.fr/
- * Description:       Description courte
+ * Description:       A WordPress plugin to debug your theme during the development
  * Version:           1.0.0
  * Author:            Pierre Lebedel
  * Author URI:        http://www.pierros.fr

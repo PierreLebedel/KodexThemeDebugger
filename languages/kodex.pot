@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Sat Sep 26 2015 17:37:14 GMT+0200 (Paris, Madrid (heure "
 "d’été))\n"
-"POT-Revision-Date: Wed Oct 07 2015 20:30:48 GMT+0200 (Paris, Madrid (heure "
+"POT-Revision-Date: Wed Oct 07 2015 21:04:55 GMT+0200 (Paris, Madrid (heure "
 "d’été))\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: \n"
@@ -35,7 +35,7 @@ msgid "http://kodex.pierros.fr"
 msgstr ""
 
 #. Description of the plugin
-msgid "Description courte"
+msgid "A WordPress plugin to debug your theme during the development"
 msgstr ""
 
 #. Author of the plugin
@@ -68,7 +68,12 @@ msgstr ""
 msgid "Next page load"
 msgstr ""
 
-#: ../admin/class-kodex-theme-debugger-admin.php:93
+#: ../admin/class-kodex-theme-debugger-admin.php:55 ../admin/partials/part-cron.
+#: php:56
+msgid "seconds left"
+msgstr ""
+
+#: ../admin/class-kodex-theme-debugger-admin.php:96
 msgid "Page not found"
 msgstr ""
 
@@ -76,27 +81,35 @@ msgstr ""
 msgid "The DISABLE_WP_CRON constant is enabled"
 msgstr ""
 
-#: ../admin/partials/part-cron.php:20
+#: ../admin/partials/part-cron.php:38
 msgid "Task name"
 msgstr ""
 
-#: ../admin/partials/part-cron.php:21
+#: ../admin/partials/part-cron.php:39
 msgid "Recurrence"
 msgstr ""
 
-#: ../admin/partials/part-cron.php:22
+#: ../admin/partials/part-cron.php:40
 msgid "Next execution"
 msgstr ""
 
-#: ../admin/partials/part-cron.php:33
+#: ../admin/partials/part-cron.php:41
+msgid "Actions"
+msgstr ""
+
+#: ../admin/partials/part-cron.php:52
 msgid "seconds"
 msgstr ""
 
-#: ../admin/partials/part-cron.php:37
-msgid "seconds left"
+#: ../admin/partials/part-cron.php:57
+msgid "Execute now"
 msgstr ""
 
-#: ../admin/partials/part-cron.php:46
+#: ../admin/partials/part-cron.php:58
+msgid "Remove from tasks list"
+msgstr ""
+
+#: ../admin/partials/part-cron.php:67
 msgid "No scheduled task"
 msgstr ""
 

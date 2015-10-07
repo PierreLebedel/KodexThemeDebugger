@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Sat Sep 26 2015 17:37:14 GMT+0200 (Paris, Madrid (heure "
 "d’été))\n"
-"PO-Revision-Date: Wed Oct 07 2015 20:31:10 GMT+0200 (Paris, Madrid (heure "
+"PO-Revision-Date: Wed Oct 07 2015 21:06:11 GMT+0200 (Paris, Madrid (heure "
 "d’été))\n"
 "Last-Translator: Pierros <pierrelebedel@gmail.com>\n"
 "Language-Team: \n"
@@ -33,8 +33,8 @@ msgid "http://kodex.pierros.fr"
 msgstr ""
 
 #. Description of the plugin
-msgid "Description courte"
-msgstr ""
+msgid "A WordPress plugin to debug your theme during the development"
+msgstr "Un plugin pour debugger votre thème durant son développement"
 
 #. Author of the plugin
 msgid "Pierre Lebedel"
@@ -57,32 +57,41 @@ msgstr ""
 msgid "Cron"
 msgstr ""
 
-#: ../admin/class-kodex-theme-debugger-admin.php:54
-msgid "Next page load"
-msgstr "Prochain chargement"
+#: ../admin/partials/part-cron.php:41
+msgid "Actions"
+msgstr "Actions"
 
-#: ../admin/partials/part-cron.php:33
-msgid "seconds"
-msgstr "secondes"
+#: ../admin/partials/part-cron.php:57
+msgid "Execute now"
+msgstr "Exécuter maintenant"
 
-#: ../admin/partials/part-cron.php:37
-msgid "seconds left"
-msgstr "secondes restantes"
+#: ../admin/partials/part-cron.php:58
+msgid "Remove from tasks list"
+msgstr "Retirer des tâches planifiées"
 
 #: ../admin/partials/part-posttypes.php:18 ../admin/partials/part-posttypes.php:56
 msgid "Public"
-msgstr ""
+msgstr "Public"
 
 #: ../admin/partials/part-posttypes.php:21 ../admin/partials/part-posttypes.php:48
 msgid "Taxonomies"
-msgstr ""
+msgstr "Taxonomies"
 
 #: ../admin/class-kodex-theme-debugger-admin.php:31 ../admin/partials/part-
 #: shortcodes.php:11
 msgid "Shortcodes"
 msgstr "Shortcodes"
 
-#: ../admin/class-kodex-theme-debugger-admin.php:93
+#: ../admin/class-kodex-theme-debugger-admin.php:54
+msgid "Next page load"
+msgstr "Prochain chargement"
+
+#: ../admin/class-kodex-theme-debugger-admin.php:55 ../admin/partials/part-cron.
+#: php:56
+msgid "seconds left"
+msgstr "secondes restantes"
+
+#: ../admin/class-kodex-theme-debugger-admin.php:96
 msgid "Page not found"
 msgstr "Page introuvable"
 
@@ -90,19 +99,23 @@ msgstr "Page introuvable"
 msgid "The DISABLE_WP_CRON constant is enabled"
 msgstr "La constante DISABLE_WP_CRON est activée"
 
-#: ../admin/partials/part-cron.php:20
+#: ../admin/partials/part-cron.php:38
 msgid "Task name"
 msgstr "Nom de la tâche"
 
-#: ../admin/partials/part-cron.php:21
+#: ../admin/partials/part-cron.php:39
 msgid "Recurrence"
 msgstr "Récurrence"
 
-#: ../admin/partials/part-cron.php:22
+#: ../admin/partials/part-cron.php:40
 msgid "Next execution"
 msgstr "Prochaine éxécution"
 
-#: ../admin/partials/part-cron.php:46
+#: ../admin/partials/part-cron.php:52
+msgid "seconds"
+msgstr "secondes"
+
+#: ../admin/partials/part-cron.php:67
 msgid "No scheduled task"
 msgstr "Aucune tâche planifiée"
 
