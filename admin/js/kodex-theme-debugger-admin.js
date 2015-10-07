@@ -1,32 +1,24 @@
 (function( $ ) {
 	'use strict';
 
-	/**
-	 * All of the code for your admin-specific JavaScript source
-	 * should reside in this file.
-	 *
-	 * Note that this assume you're going to use jQuery, so it prepares
-	 * the $ function reference to be used within the scope of this
-	 * function.
-	 *
-	 * From here, you're able to define handlers for when the DOM is
-	 * ready:
-	 *
-	 * $(function() {
-	 *
-	 * });
-	 *
-	 * Or when the window is loaded:
-	 *
-	 * $( window ).load(function() {
-	 *
-	 * });
-	 *
-	 * ...and so on.
-	 *
-	 * Remember that ideally, we should not attach any more than a single DOM-ready or window-load handler
-	 * for any particular page. Though other scripts in WordPress core, other plugins, and other themes may
-	 * be doing this, we should try to minimize doing that in our own work.
-	 */
+	// CRON debugger
+	$(document).ready(function(){
+		if( $('#cron_tasks_table .countdown').length ){
+			var cronInterval = setInterval(function(){
+				$('#cron_tasks_table .countdown').each(function(index, elem){
+					if( !$(elem).hasClass('stopped') ){
+						var val = parseInt($(elem).text());
+						var newVal = val-1;
+						if(newVal<=0){
+							$(elem).addClass('stopped').text(kodex_theme_debugger.translate.next_page_load);
+						}else{
+							$(elem).text(newVal+' '+kodex_theme_debugger.translate.seconds_left);
+						}
+					}
+				});
+			}, 1000);
+		}
 
+	});
+		
 })( jQuery );

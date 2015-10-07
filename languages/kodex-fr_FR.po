@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Sat Sep 26 2015 17:37:14 GMT+0200 (Paris, Madrid (heure "
 "d’été))\n"
-"PO-Revision-Date: Wed Oct 07 2015 20:17:52 GMT+0200 (Paris, Madrid (heure "
+"PO-Revision-Date: Wed Oct 07 2015 20:31:10 GMT+0200 (Paris, Madrid (heure "
 "d’été))\n"
 "Last-Translator: Pierros <pierrelebedel@gmail.com>\n"
 "Language-Team: \n"
@@ -57,9 +57,17 @@ msgstr ""
 msgid "Cron"
 msgstr ""
 
-#: ../admin/partials/part-cron.php:45
-msgid "No scheduled task"
-msgstr "Aucune tâche planifiée"
+#: ../admin/class-kodex-theme-debugger-admin.php:54
+msgid "Next page load"
+msgstr "Prochain chargement"
+
+#: ../admin/partials/part-cron.php:33
+msgid "seconds"
+msgstr "secondes"
+
+#: ../admin/partials/part-cron.php:37
+msgid "seconds left"
+msgstr "secondes restantes"
 
 #: ../admin/partials/part-posttypes.php:18 ../admin/partials/part-posttypes.php:56
 msgid "Public"
@@ -74,7 +82,7 @@ msgstr ""
 msgid "Shortcodes"
 msgstr "Shortcodes"
 
-#: ../admin/class-kodex-theme-debugger-admin.php:90
+#: ../admin/class-kodex-theme-debugger-admin.php:93
 msgid "Page not found"
 msgstr "Page introuvable"
 
@@ -93,6 +101,10 @@ msgstr "Récurrence"
 #: ../admin/partials/part-cron.php:22
 msgid "Next execution"
 msgstr "Prochaine éxécution"
+
+#: ../admin/partials/part-cron.php:46
+msgid "No scheduled task"
+msgstr "Aucune tâche planifiée"
 
 #: ../admin/partials/part-posttypes.php:10 ../admin/partials/part-posttypes.php:59
 msgid "Post types"

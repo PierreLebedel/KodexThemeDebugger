@@ -50,11 +50,17 @@ class Kodex_Theme_Debugger_Admin {
 
 	public function enqueue_scripts() {
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/kodex-theme-debugger-admin.js', array( 'jquery' ), $this->version, false );
+		wp_localize_script($this->plugin_name, 'kodex_theme_debugger', array('translate'=>array(
+			'next_page_load' => __("Next page load", 'kodex'),
+			'seconds_left' => __("seconds left", 'kodex'),
+		)));
 	}
 
 	public function admin_url($tab=''){
 		$url = add_query_arg('tab', $tab);
 		$url = remove_query_arg('action', $url);
+		$url = remove_query_arg('do', $url);
+		$url = remove_query_arg('remove', $url);
 		return $url;
 	}
 

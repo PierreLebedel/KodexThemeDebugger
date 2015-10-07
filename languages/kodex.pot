@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Sat Sep 26 2015 17:37:14 GMT+0200 (Paris, Madrid (heure "
 "d’été))\n"
-"POT-Revision-Date: Wed Oct 07 2015 20:17:30 GMT+0200 (Paris, Madrid (heure "
+"POT-Revision-Date: Wed Oct 07 2015 20:30:48 GMT+0200 (Paris, Madrid (heure "
 "d’été))\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: \n"
@@ -64,7 +64,11 @@ msgstr ""
 msgid "Cron"
 msgstr ""
 
-#: ../admin/class-kodex-theme-debugger-admin.php:90
+#: ../admin/class-kodex-theme-debugger-admin.php:54
+msgid "Next page load"
+msgstr ""
+
+#: ../admin/class-kodex-theme-debugger-admin.php:93
 msgid "Page not found"
 msgstr ""
 
@@ -84,7 +88,15 @@ msgstr ""
 msgid "Next execution"
 msgstr ""
 
-#: ../admin/partials/part-cron.php:45
+#: ../admin/partials/part-cron.php:33
+msgid "seconds"
+msgstr ""
+
+#: ../admin/partials/part-cron.php:37
+msgid "seconds left"
+msgstr ""
+
+#: ../admin/partials/part-cron.php:46
 msgid "No scheduled task"
 msgstr ""
 
